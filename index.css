@@ -1,0 +1,41 @@
+.first-scroll {
+	background-color: #181818;
+	color: white;
+	width: 100vh;
+	height: 100vh;
+	display: flex;
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+
+}
+
+.main-content h1 {
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.main-content h2 {
+	font-size: 28px;
+	font-weight: 400;
+}
+
+.main-content .cta {
+	justify-content: center;
+	align-items: center;
+}
+
+.main-content .cta button {
+	font-size: 18px;
+	padding: 8px 16px;
+	border: 1px solid white;
+}
+
+.main-content .cta button:first-child {
+	margin-right: 16px;
+}
+
